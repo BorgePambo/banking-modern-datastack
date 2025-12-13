@@ -1,0 +1,33 @@
+# Python virtual environment
+.myvenv/
+
+
+# Github Actions cache
+/.Github/cache
+
+# Docker files
+docker/logs/
+docker/minio
+docker/plugins/
+docker/postgres
+docker/postgres/data/
+docker/app.py
+
+
+# DBT Cache
+banking_dbt/.dbt/
+banking_dbt/analysis/
+banking_dbt/logs/
+banking_dbt/macros/
+banking_dbt/seeds/
+banking_dbt/target/
+banking_dbt/tests/
+
+.env
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+docker-compose.override.yml
+logs/
